@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-//#include <time.h>
+
 
 // Compile with: gcc -O2 -Wall no-sse.c -o no-sse -DN=.. -DR=..
 
@@ -31,7 +31,7 @@ void get_walltime(double *wct) {
 }
 
 int main() {
-//srand((unsigned)time(NULL));
+
 
 float *p[R],*newP[R];
 int i,j;
